@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Frontend Bootstrap</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-light  py-3 px-3 border-bottom">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn btn-outline-secondary me-2 w-100 " type="button"><img src="img/person-square.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="row">
+            <!--company overview-->
+            <div
+                class=" col-8 container d-flex flex-row m-3 border-bottom p-3 w-50 h-25 justify-content-between">
+                <div class="d-flex flex-row">
+                    <img src="img/logo.svg" class="m-3 w-25 border align-items-center" alt="">
+                    <div class="d-flex flex-column mx-3 justify-items-center ">
+                        <p class="my-1 fs-5 fw-bold">Vodafone Group PLC</p>
+                        <p class="my-1 fw-bold">Telecommunication</p>
+                        <p class="my-1">Washington D.C. Metro Area</p>
+                        <p class="my-1">
+                            <a href="#" class="link-warning">www.vodafone.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-outline-secondary me-2" type="button">Edit</button>
+                </div>
+            </div>
+
+            <div class="container col-4 m-3">
+                <div class=" container d-flex flex-column ">
+
+                    <p class="my-1 fw-bold text-secondary">ALL USERS</p>
+                    <p class="my-1 fs-4">5</p>
+                    <p class="my-1 fw-bold text-secondary">POSTED JOBS</p>
+                    <p class="my-1 fs-4">54</p>
+                    <p class="my-1 fw-bold text-secondary">OPEN JOBS</p>
+                    <p class="my-1 fs-4">18</p>
+                    <p class="my-1 fw-bold text-secondary">HIRED</p>
+                    <p class="my-1 fs-4">66</p>
+                    <p class="my-1 fw-bold ">NOTIFICATIONS</p>
+                    <p><img src="img/toggle.png" class="" alt="..."></p>
+                    <p class="my-2 fw-bold">Searching for talents?</p>
+                    <a
+                        class="btn btn-primary w-50"
+                        data-bs-toggle="collapse"
+                        href="#multiCollapseExample1"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="multiCollapseExample1">Search Now</a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div
+            class=" container p-0 d-flex flex-row m-3 border-bottom p-3 w-50 h-25 justify-content-between">
+            <div class="d-flex flex-row aligh-items-center">
+                <div class="d-flex flex-column mx-3">
+                    <p class="my-3 fs-5 fw-bold">Company Overview</p>
+                    <p class="my-1">Lorem ipsum dolor sit amet. 33 perspiciatis exercitationem sed
+                        vitae illo in explicabo veritatis eos Quis velit. Aut vero dolorum rem rerum
+                        sunt sit veritatis mollitia eum officia nostrum eum obcaecati enim qui dolor
+                        autem 33 corporis ratione. Aut perferendis inventore et sunt officia et ipsam
+                        impedit ea galisum galisum et veritatis odio qui eius enim et eius amet.</p>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-outline-secondary me-2" type="button">Edit</button>
+            </div>
+        </div>
+
+        <!--details-->
+        <div
+            class="container d-flex flex-column mx-4 border-bottom p-3 w-50 h-25 justify-content-between ">
+            <p class="my-3 fs-5 fw-bold">Company details</p>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column ">
+
+                    <p class="my-1 fw-bold">Type</p>
+                    <p class="my-1">Public Company</p>
+                    <p class="my-1 fw-bold">Industry</p>
+                    <p class="my-1">Telecommunications</p>
+                    <p class="my-1 fw-bold">Website</p>
+                    <p class="my-1">www.vodafone.com</p>
+
+                </div>
+                <div class="mx-5">
+                    <p class="my-1 fw-bold">Phone</p>
+                    <p class="my-1">+19 74839 847 89</p>
+                    <p class="my-1 fw-bold">Headquarters</p>
+                    <p class="my-1">Vodafone limited the collection Newsbury</p>
+                    <p class="my-1">Berkshire RG13 2FN United Kingdom</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--member-->
+        <div
+            class=" container d-flex flex-row m-3 border-bottom w-50 p-3 justify-content-between">
+            <div class="d-flex flex-row align-items-center">
+
+                <div class="d-flex flex-column mx-3">
+
+                    <p class="my-3 fs-5 fw-bold">Membership Information</p>
+                    <p class="my-2">Current membership plan</p>
+                    <p class="text-danger">Agencies</p>
+
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-outline-danger me-2" type="button">Upgrade</button>
+            </div>
+
+            <!--users-->
+        </div class=" d-flex flex-row m-3 border w-50 p-3 justify-content-between">
+        <div class=" container d-flex flex-column mx-3 border-bottom">
+
+            <p class="mx-3 my-4 fs-5 fw-bold">All users</p>
+            <div class="container row text-center">
+                <div class="col-2">
+                    <img src="img/profile.png" alt="" class=" my-4">
+                    <p>Lorem Ipsum</p>
+                    <button type="button" class="aligh-items-centerbtn btn-secondary w-25">View</button>
+                </div>
+                <div class="col-2">
+                    <img src="img/profile.png" alt="" class=" my-4">
+                    <p>Lorem Ipsum</p>
+                    <button type="button" class="aligh-items-centerbtn btn-secondary w-25">View</button>
+                </div>
+                <div class="col-2">
+                    <img src="img/profile.png" alt="" class=" my-4">
+                    <p>Lorem Ipsum</p>
+                    <button type="button" class="aligh-items-centerbtn btn-secondary w-25">View</button>
+                </div>
+                <div class="col-2">
+                    <img src="img/profile.png" alt="" class=" my-4">
+                    <p>Lorem Ipsum</p>
+                    <button type="button" class="aligh-items-centerbtn btn-secondary w-25">View</button>
+                </div>
+
+            </div>
+
+            <div></div>
+
+            <!--footer-->
+            <div
+                class=" container d-flex flex-row m-3 border-bottom p-3 justify-content-between ">
+                <div class="d-flex flex-row col-4 align-items-center">
+
+                    <div class="d-flex flex-column mx-3">
+
+                        <p class="my-3 fs-5 fw-bold">BIRTH OF AN IDEA</p>
+                        <p class="my-2">Lorem ipsum dolor sit amet. 33 perspiciatis exercitationem sed
+                            vitae illo in explicabo veritatis eos Quis velit. Aut vero dolorum rem rerum
+                            sunt sit veritatis mollitia eum officia nostrum eum obcaecati enim qui dolor
+                            autem 33 corporis ratione.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="d-flex flex-row col-4">
+
+                    <div class="d-flex flex-column mx-3">
+
+                        <p class="my-3 fs-5 fw-bold">LEARN MORE</p>
+                        <p class="my-0">-About us</p>
+                        <p class="my-0">-News</p>
+                        <p class="my-0">-FAQ</p>
+                        <p class="my-0">-Blog</p>
+                        <p class="my-0">-Privacy Policy</p>
+
+                    </div>
+                </div>
+                <div class="d-flex flex-row col-4">
+
+                    <div class="d-flex flex-column mx-3">
+
+                        <p class="my-3 fs-5 fw-bold">CONNECT</p>
+                        <div class="container">
+                            <img src="img/facebook.svg" alt="" class="w-25 mx-1">
+                            <img src="img/instagram.svg" alt="" class="w-25 ">
+                            <img src="img/whatsapp.svg" alt="" class="w-25 mx-1">
+                            <img src="img/linkedin.svg" alt="" class="w-25 ">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div
+                class="text-center p-4 border-top"
+                style="background-color: rgba(222, 209, 209, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">All Rights Reserved</a>
+            </div>
+            <!-- Copyright -->
+
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+        </body>
+    </html>
